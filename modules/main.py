@@ -71,10 +71,10 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖.𓄂️𝆺𝅥⃝🕷️i̟ ‌⃪‌ ᷟ𓆩〭〬🕸️M̟i̟s̟s̟i̟o̟n̟ u̟p̟s̟c̟‌ 🖤❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Opleech_WD") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Missionupscoffcial") ],
                     [
                     InlineKeyboardButton("✜ Support  ✜" ,url="https://t.me/@Mission_upscc") ],
                     [
@@ -82,9 +82,9 @@ async def account_login(bot: Client, m: Message):
             ]))
 
 
-@bot.on_message(filters.command("stop"))
+@bot.on_message(filters.command("thamba"))
 async def restart_handler(_, m):
-    await m.reply_text("♦ 𝐒𝐭𝐨𝐩𝐩𝐞𝐭 ♦", True)
+    await m.reply_text("♦ Stopped ♦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
