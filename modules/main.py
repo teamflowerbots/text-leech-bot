@@ -76,9 +76,9 @@ async def account_login(bot: Client, m: Message):
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Missionupscoffcial") ],
                     [
-                    InlineKeyboardButton("✜ Support  ✜" ,url="https://t.me/@Mission_upscc") ],
+                    InlineKeyboardButton("✜ Support  ✜" ,url="https://t.me/Mission_upscc") ],
                     [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/@Mission_upscc") ]                               
+                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/Mission_upscc") ]                               
             ]))
 
 
@@ -158,7 +158,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("🌄 Now send the Thumb url\nEg » https://graph.org/file/419c60736fbac058c9e50.jpg\n\n Or if don't want thumbnail send = no")
+    await editable.edit("🌄 Now send the Thumb url \n\n Or if don't want thumbnail send = no")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
